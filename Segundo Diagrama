@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2023-02-14T00:03:51.070Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.20" etag="CGW1PBe6cVpyjLRiHnkt" type="github"><diagram name="Página-1" id="oKy7DS5_UDDAwTcQwn_y">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-14T00:16:01.445Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="iO1N2ex85ZuB1qUaxj-_" version="20.8.20" type="github">
+  <diagram name="Página-1" id="oKy7DS5_UDDAwTcQwn_y">
+    <mxGraphModel dx="1605" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V0pxvLDXrLL_mluzlXFq-1" value="Produto" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="180" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="V0pxvLDXrLL_mluzlXFq-2" value="-id: long&#xa;-nome: String&#xa;-preco: double&#xa;-estoque: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V0pxvLDXrLL_mluzlXFq-1">
+          <mxGeometry y="26" width="180" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="V0pxvLDXrLL_mluzlXFq-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="V0pxvLDXrLL_mluzlXFq-1">
+          <mxGeometry y="130" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="V0pxvLDXrLL_mluzlXFq-4" value="+setId(id: long): void&#xa;+setNome(nome: String): void&#xa;+setPreco(preco: double): void&#xa;+setEstoque(estoque: int): void&#xa;+getId(): long&#xa;+getNome(): String&#xa;+getPreco(): double&#xa;+getEstoque(): int&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V0pxvLDXrLL_mluzlXFq-1">
+          <mxGeometry y="138" width="180" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="V0pxvLDXrLL_mluzlXFq-9" value="Cliente" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="254" y="40" width="176" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="V0pxvLDXrLL_mluzlXFq-10" value="-cpf: string&#xa;-nome: String&#xa;-saldo: double&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V0pxvLDXrLL_mluzlXFq-9">
+          <mxGeometry y="26" width="176" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="V0pxvLDXrLL_mluzlXFq-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="V0pxvLDXrLL_mluzlXFq-9">
+          <mxGeometry y="130" width="176" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="V0pxvLDXrLL_mluzlXFq-12" value="+setCpf(cpf: String): void&#xa;+setNome(nome: String): void&#xa;+setSaldo(saldo: double): void&#xa;+getCpf(): String&#xa;+getNome(): String&#xa;+getSaldo(): double&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V0pxvLDXrLL_mluzlXFq-9">
+          <mxGeometry y="138" width="176" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="V0pxvLDXrLL_mluzlXFq-13" value="Pedido" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="40" width="160" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="V0pxvLDXrLL_mluzlXFq-14" value="-numero: long&#xa;-data: String&#xa;-total: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V0pxvLDXrLL_mluzlXFq-13">
+          <mxGeometry y="26" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="V0pxvLDXrLL_mluzlXFq-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="V0pxvLDXrLL_mluzlXFq-13">
+          <mxGeometry y="130" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="V0pxvLDXrLL_mluzlXFq-16" value="+setNumero(numero: long): void&#xa;+setData(data: String): void&#xa;+setTotal(total: double): void&#xa;+getNumero(): long&#xa;+getData(): String&#xa;+getTotal(): double&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="V0pxvLDXrLL_mluzlXFq-13">
+          <mxGeometry y="138" width="160" height="182" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
